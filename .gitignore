@@ -1,0 +1,31 @@
+# Datasets — too large for GitHub (100 MB/file limit). See README for download steps.
+dataset/
+*.csv
+
+# Keras Tuner search results — regenerable by re-running the tuning notebook
+kt_dir/
+
+# Model artifacts
+*.h5
+*.keras
+*.weights.h5
+*.pkl
+*.joblib
+
+# Generated notebook outputs
+eda_outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editors / OS
+.claude/settings.local.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
